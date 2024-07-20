@@ -1,1 +1,26 @@
 
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding:20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: orange;
+}
+input[tupe="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: yellow;
+}
