@@ -6,7 +6,7 @@
     border-radius: 8px;
     background-color: orange;
 }
-input[tupe="text"]{
+input[type="text"]{
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
